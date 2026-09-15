@@ -1,3 +1,7 @@
+:root {
+  --font: "Jost";
+}
+
 html,
 body {
   margin: 0;
@@ -79,7 +83,7 @@ P {
   outline: none;
 
   color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 15px;
   font-weight: 400;
@@ -94,7 +98,7 @@ P {
   outline: none;
 
   color: rgba(98, 105, 116, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 15px;
   font-weight: 400;
@@ -151,7 +155,7 @@ P {
 .navbar_frame .box_info_box span {
   color: rgba(255, 255, 255, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 15px;
   font-weight: 400;
@@ -163,7 +167,7 @@ P {
 .navbar_frame .box_info_box strong {
   color: rgba(255, 255, 255, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 15px;
   font-weight: 500;
@@ -186,7 +190,7 @@ P {
   justify-content: center;
   align-items: center;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Bold;
   font-size: 8px;
   font-weight: 700;
@@ -219,7 +223,7 @@ P {
   margin-left: 10px;
   color: rgba(255, 255, 255, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 16px;
   font-weight: 500;
@@ -236,15 +240,15 @@ P {
   display: flex;
   flex-direction: row;
 }
-.navbar_frame .navbar_route_menyu a {
+.navbar_frame .navbar_route_menyu .router_menu a {
   margin-right: 10px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 16px;
   font-weight: 400;
   color: #fff;
 }
-.navbar_frame .navbar_route_menyu a.title {
+.navbar_frame .navbar_route_menyu .router_menu a.active {
   color: #f5c34b;
 }
 
@@ -252,7 +256,7 @@ P {
   margin-left: 10px;
   color: rgba(255, 255, 255, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 16px;
   font-weight: 500;
